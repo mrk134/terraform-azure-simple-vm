@@ -104,5 +104,7 @@ variable "region" {
 variable "subscriptionId" {}
 variable "clientId" {}
 variable "clientSecret" {}
-variable "resourceGroup" {}
+variable "resourceGroup" {
+  default = "resgrtestmark
+  }
 variable "tenantId" {}
