@@ -1,12 +1,11 @@
 
 provider "azurerm" {
-  features {}
+  #features {}
   subscription_id = "${var.subscriptionId}"
   client_id       = "${var.clientId}"
   client_secret   = "${var.clientSecret}"
   tenant_id       = "${var.tenantId}"
 }
-#File =template.tf
 
 
 resource "azurerm_resource_group" "main" {
