@@ -105,6 +105,6 @@ variable "subscriptionId" {}
 variable "clientId" {}
 variable "clientSecret" {}
 variable "resourceGroup" {
-  default = "resgrtestmark
+  default = "resgrtestmark"
   }
 variable "tenantId" {}
